@@ -48,8 +48,11 @@
         "test-unit-php-7-4": "docker-compose run --rm cli_7_4_php php ./vendor/bin/phpunit",
         "test-unit-php-7-4-win": "docker-compose run --rm cli_7_4_php ./vendor/bin/phpunit",
         "test-unit-php-7-3": "docker-compose run --rm cli_7_3_php php ./vendor/bin/phpunit",
+        "test-unit-php-7-3-win": "docker-compose run --rm cli_7_3_php ./vendor/bin/phpunit",
         "test-unit-php-7-2": "docker-compose run --rm cli_7_2_php php ./vendor/bin/phpunit",
+        "test-unit-php-7-2-win": "docker-compose run --rm cli_7_2_php ./vendor/bin/phpunit",
         "test-unit-php-7-1": "docker-compose run --rm cli_7_1_php php ./vendor/bin/phpunit",
+        "test-unit-php-7-1-win": "docker-compose run --rm cli_7_1_php ./vendor/bin/phpunit",
         "test-unit-hhvm":    "docker-compose run --rm cli_hhvm php -d hhvm.php7.all=1 ./vendor/bin/phpunit"
     },
     "extra": {},
